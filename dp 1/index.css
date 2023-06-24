@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(232, 233, 232, 0.959);
+}
+.innerheader{
+    background-color: rgb(140, 191, 233);
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    padding: 10px;
+}
+ul{
+    display: flex;
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+form{
+    padding: 30px;
+}
+input{
+    border-style: none;
+    border-radius: 40px;
+    height: 1.5rem;
+    width: 17rem;
+    text-align: center;
+    box-shadow: 3px 3px;
+}
+.images{
+    display: flex;
+}
+.Best-Seller{
+    display: flex;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+}
+.books{
+    background-color: white;
+    box-shadow: 7px 9px grey;
+    width: 180px;
+    height: 250px;
+    display: grid;
+    padding: 18px;
+    place-items: center;
+}
+.books:hover{background-color:rgb(204, 203, 203)}
+.book{
+ 
+    height: 140px;
+    width: 100px;
+}
+.buy{
+    border-radius: 40px;
+    background-color:  rgb(140, 191, 233);
+    color: black;
+    border-style: none;
+}
+.buy:hover{background-color: rgb(143, 143, 241);}
+h2{
+    padding: auto;
+}
+.Top-Stories{
+    display: flex;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+}
+.Popular{
+    display: flex;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+}
+.Contents{
+    display: flex;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+}
+.Contact-Us{
+    background-color: rgb(140, 191, 233);
+}
+.i{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
